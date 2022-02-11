@@ -28,7 +28,12 @@ st.write ("The value of volume of a Sphere is ",V)
 
 
 # In[ ]:
-
+import streamlit as st
+st.title("Press button to Vote")
+if st.button('VOTE'):
+     st.write('Voted!!')
+ else:
+     st.write('Goodbye')
 
 
 
