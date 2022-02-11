@@ -1,6 +1,6 @@
 import streamlit as st
-st.title("Press Tick")
-if st.button('Say hello'):
-     st.write('Why hello there')
+st.title("Press button to Vote")
+if st.button('VOTE'):
+     st.write('Voted!!')
  else:
      st.write('Goodbye')
