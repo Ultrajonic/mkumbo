@@ -9,7 +9,7 @@ import streamlit as st
 st.header ('''My First Simple Web App''')
 st.write ('''***By John Emmanuel***''')
 st.write ('''**Temperature Calculations**''')
-C = st.slider('Slide to Change Input Value of Temperature in Celcius',0.00,500.00,1000.00)
+C = st.number_input('Insert a number in Celcius')
 F = (((C)*(9/5))+32)
 st.write(F, "Fahrenheit")
 K = (((F - 32)*(5/9))+(273.15))
