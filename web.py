@@ -50,6 +50,15 @@ name = st.text_input('Name')
 if not name:
   st.warning('Please input a name.')
   st.stop()
+     
+     
+option = st.selectbox(
+     'What are you want to do in Ultrajonic Studio?',
+     ('Email', 'Home phone', 'Mobile phone'))
+
+st.write('You selected:', option)
+
+
 
 #Finally agree with above contents.............     
 agree = st.checkbox('I agree')
