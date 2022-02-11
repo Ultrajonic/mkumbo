@@ -39,7 +39,22 @@ else:
 
 
 # In[ ]:
+import streamlit as st
+st.title("ULTRAJONIC STUDIO")
+st.subtitle("Welcome in Media Production")
+name = st.text_input('Name')
+if not name:
+  st.warning('Please input a name.')
+  st.stop()
+name = st.text_input('Name')
+if not name:
+  st.warning('Please input a name.')
+  st.stop()
 
+#Finally agree with above contents.............     
+agree = st.checkbox('I agree')
 
+if agree:
+     st.write('Thank you, your done!!')
 
 
