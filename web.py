@@ -32,7 +32,7 @@ import streamlit as st
 st.title("Press button to Vote")
 if st.button('VOTE'):
      st.write('Voted!!')
- else:
+else:
      st.write('Goodbye')
 
 
