@@ -41,7 +41,7 @@ else:
 # In[ ]:
 import streamlit as st
 st.title("ULTRAJONIC STUDIO")
-st.subtitle("Welcome in Media Production")
+st.title('''**Welcome in Media Production**''')
 name = st.text_input('Name')
 if not name:
   st.warning('Please input a name.')
